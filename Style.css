@@ -1,0 +1,605 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Ubuntu:wght@300&display=swap'); 
+
+/* Index file */
+*{
+    font-family: 'DM Sans', sans-serif;
+
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.Hole-page {
+    background-color: #dad8d8;
+    height: 1000px;
+    /* border: 2px solid; */
+}
+
+.container {
+    background-image: url('banner2.jpg');
+    height: 824px;
+}
+
+.header-section {
+    border: 2px solid black;
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+}
+
+.header-child {
+    /* border: 2px solid green;
+    border: 2px solid green; */
+    text-align: center;
+    /* position: relative; */
+    padding: 11px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Index html in -container box */
+.container-box {
+    height: 107px;
+    /* color: white; */
+    /* border: 2px solid red; */
+    margin: 0px 153px;
+    background-color: white;
+}
+
+.element {
+    /* border: 2px solid orange; */
+
+}
+
+.logo {
+    /* border: 2px solid white; */
+    position: relative;
+    top: 34px;
+    left: 37px;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.element-list {
+    /* border: 2px solid yellow; */
+    height: 44px;
+    position: relative;
+    bottom: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.element-list ul li {
+    float: left;
+    padding: 19px 46px;
+    /* border: 2px solid; */
+    position: relative;
+    bottom: 25px;
+    left: 491px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.element-list ul li a {
+    text-decoration-line: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* hover effect */
+.element-list ul li:hover {
+    /* border: 2px solid orange; */
+    background-color: #fe9901;
+    color: white;
+    border-radius: 6px;
+}
+
+.element-list ul li a:hover {
+    color: white;
+}
+
+/* text area */
+.Text-container {
+    /* border: 2px solid orange; */
+    height: 315px;
+    position: relative;
+    bottom: 524px;
+}
+
+.Heading {
+    /* border: 2px solid green; */
+    font-size: 41px;
+    color: white;
+}
+
+.Heading h1 {
+    /* border: 2px solid; */
+    position: relative;
+    left: 148px;
+    bottom: 42px;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.paragraph {
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 64px;
+}
+
+.paragraph p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0px 144px;
+    position: relative;
+}
+
+.btn {
+    /* border: 2px solid pink; */
+    margin: 50px 149px;
+    position: relative;
+    bottom: 50px;
+}
+
+.btn button {
+    padding: 15px 0px;
+    background: rgb(252, 151, 1);
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 257px;
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* -----------------3 cards-------------- */
+.container-card3 {
+    /* border: 2px solid black; */
+    height: 234px;
+    position: relative;
+    bottom: 475px;
+    display: flex;
+    gap: 28px;
+}
+
+.cards-section {
+    height: 204px;
+    width: 249px;
+    background-color: white;
+    position: relative;
+    left: 128px;
+}
+
+.cards-section img {
+    width: 234px;
+    height: 166px;
+    position: relative;
+    left: 11px;
+
+}
+
+.cards-section h5 {
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    bottom: 24px;
+}
+
+/* hover effect */
+.cards-section:hover {
+    background-color: #fe9901;
+    color: white;
+    text-decoration: underline;
+}
+
+.card1 {
+    /* border: 2px solid red; */
+}
+
+.card2 {
+    /* border: 2px solid yellow; */
+}
+
+.card3 {
+    /* border: 2px solid orange; */
+}
+
+/* About pages  */
+
+.about {
+    position: relative;
+    bottom: 451px;
+}
+
+.about_img button {
+    border: none;
+}
+
+.about_img button:hover {
+    color: white;
+    background-color: orange;
+    border: none;
+}
+
+.container-fluid {
+    /* border: 2px solid; */
+
+}
+
+.row-section {
+    /* border:2px solid red; */
+    display: flex;
+}
+
+.col-section {
+    /* border: 2px solid orange; */
+    padding: 100px 150px;
+    font-size: 23px;
+}
+
+.col-section2 {
+    /* border: 2px solid purple; */
+}
+
+.btn-section button {
+    padding: 17px;
+    border-radius: 5px;
+    max-width: 186px;
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    margin: 29px 0px;
+    position: relative;
+    top: 23px;
+    left: 76px
+}
+
+/* Three cards */
+.container-three {
+    /* display: flex;
+    gap: 27px; */
+    position: relative;
+    bottom: 433px;
+}
+
+.three_c-heading {
+    text-align: center;
+}
+
+.three_c-heading h2 {
+    font-size: 40px;
+}
+
+.three_c-heading p {
+    font-size: 22px;
+}
+
+.middle {
+    position: relative;
+    left: 51px;
+    display: flex;
+    gap: 27px;
+}
+
+.middle h2 {
+    position: relative;
+    bottom: 67px;
+    color: white;
+    padding: 0px 14px;
+
+}
+
+.cards-1 {
+    /* border: 2px solid; */
+    height: 657px;
+}
+
+/* hover effect */
+.cards-1:hover {
+    /* border: 2px solid gray; */
+    box-shadow: 3px 2px 8px grey;
+}
+
+/* ----why we choose us page style---- */
+.choose {
+    /* border: 2px solid black; */
+    background: url(choose_bg.jpg);
+    width: 100%;
+    height: 700px;
+    position: relative;
+    bottom: 316px;
+}
+
+.container-choose {
+    /* border: 2px solid green; */
+}
+
+.row-choose {
+    /* border: 2px solid orange; */
+    /* display: flex; */
+    width: 47%;
+    height: 494px;
+    position: relative;
+    top: 114px;
+    left: 147px;
+
+}
+
+.titlepage {
+    padding: 0px 80px;
+}
+
+.titlepage h2 {
+    font-size: 41px;
+}
+
+.titlepage p {
+    font-size: 20px;
+    /* word-spacing: 14px; */
+    /* letter-spacing: 3px; */
+    /* word-spacing: 9px; */
+}
+
+.col-choose {
+    /* border: 2px solid red; */
+}
+
+/* three choose small cards */
+.choose-cards {
+
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 147px;
+    display: flex;
+    gap: 38px;
+    position: relative;
+    top: 41px;
+
+}
+
+.choose-cards .choose-text {
+    position: relative;
+    top: 35px;
+    left: 11px;
+    font-size: 18px;
+    position: relative;
+    bottom: 332px;
+}
+
+.choose-1 {
+
+    width: 154px;
+    height: 130px;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 62px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.choose-1:hover {
+    background-color: hsl(36, 99%, 50%);
+    transition: 3s;
+}
+
+.choose-1 img {
+    position: relative;
+    left: 39px;
+    top: 24px;
+}
+
+#choose-img1 {
+    position: relative;
+    left: 44px;
+}
+
+#choose-img2 {
+    position: relative;
+    left: 52px;
+    top: 33px;
+}
+
+/* staff section */
+.container-staff {
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 243px;
+}
+
+.staff-text {
+    /* border: 2px solid black;  */
+    text-align: center;
+    padding: 21px 0px;
+
+}
+
+/* heading */
+.staff-text h2 {
+    /* text-align: center; */
+}
+
+.staff-section {
+    /* border: 2px solid green; */
+    display: flex;
+    padding: 0px 170px;
+    gap: 27px;
+
+}
+
+.staff-1 {
+    /* border: 2px solid orange; */
+    /* background-color: white; */
+    color: black;
+
+}
+
+.staff-1 img {
+
+    position: relative;
+    left: center;
+    left: 34px;
+    height: 205px;
+    background-color: white;
+    color: black;
+
+
+}
+
+/* staff social media */
+.staff-social {
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+    /* padding: 23px 60px; */
+    background-color: #fe9901;
+    border-radius: 5px;
+    border: none;
+    height: 97px;
+    /* position: relative; */
+    width: 269px;
+    position: relative;
+    bottom: 41px;
+
+}
+
+.staff-social i {
+
+    color: white;
+    position: relative;
+    bottom: 25px;
+}
+
+.staff-social i:hover {
+    color: black;
+}
+
+/* see more btn */
+.see-btn button:hover {
+    background-color: #fe9901;
+    /* color: white; */
+}
+
+
+/* contact page */
+.container-contact {
+    /* border: 2px solid black; */
+    height: 717px;
+    position: relative;
+    bottom: 80px;
+}
+
+#contact-text {
+    position: relative;
+    left: 162px;
+}
+
+.contact-map {
+    /* border: 2px solid green; */
+    height: 448px;
+    position: relative;
+    top: 15px;
+    margin: 0px 163px;
+    display: flex;
+    box-shadow: 0px 0px 21px grey;
+}
+
+.contact-box {
+    width: 50%;
+    background-color: white;
+}
+
+#contact {
+    /* border: 2px solid orange; */
+}
+
+#map {
+    /* border: 2px solid yellowgreen; */
+}
+
+/* form */
+form {
+    /* border: 2px solid; */
+    height: 99%;
+    margin: 51px;
+}
+
+.form-group {
+    margin: 20px 31px;
+}
+
+.form-group input {
+    width: 99%;
+    height: 39px;
+    border: none;
+    box-shadow: 2px 2px 12px grey;
+    outline: none;
+}
+.form-group input:hover{
+    box-shadow: 2px 2px 12px grey;
+}
+
+.form-group textarea {
+    width: 99%;
+    box-shadow: 2px 2px 12px grey;
+
+}
+
+.form-group button {
+    padding: 16px 57px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+/* footer */
+.footer{
+    /* border: 2px solid black;  */
+    height: 396px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 251px;
+
+}
+.footer-box{
+    /* border: 2px solid red; */
+    height: 252px;
+    display: flex;
+    margin: 70px 156px;
+}
+
+.footer-card {
+    /* border: 2px solid green; */
+    width: 328px;
+    position: relative;
+    top: 79px;
+}
+.footer-card li a{
+    font-size: 25px;
+    position: relative;
+    right: 33px;
+}
+.footer-card a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
